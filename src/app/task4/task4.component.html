@@ -1,0 +1,7 @@
+<app-header></app-header>
+<div class="content" role="main">
+    <h2>Drag And Drop</h2>
+    <div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+        <div class="example-box" *ngFor="let movie of players_list" cdkDrag>{{movie}}</div>
+    </div>
+</div>

@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    // align-items: center;
+}
+
+.page-center {
+    text-align: center;
+
+    .text-block {
+        margin: auto;
+        width: 640px;
+        padding: 50px;
+        font-family: 'Lexend Deca', sans-serif;
+        color: #2E475D;
+    }
+}
+
+.home-btn {
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+    display: block;
+    align-items: center;
+    padding: 3px;
+    border-radius: 27vh;
+    width: 5%;
+    &:hover{
+        background-color: #533f73;
+    }
+}
+
+.highlight-div {
+    background-color: #fff;
+}

@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div class="content" role="main">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-tittle">
+                Virtual Scrolling
+            </div>
+        </div>
+        <div class="card-body" style="height: 550px;overflow: auto;">
+            <ul>
+                <li *ngFor="let item of aiNumbers">{{item.name}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

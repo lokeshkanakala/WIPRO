@@ -1,0 +1,6 @@
+<app-header></app-header>
+<div class="content" role="main">
+    <h2>Color Highlighter</h2>
+    <div highlight class="mb-3 mt-3 highlight-div" [color]="color_selected">Hover the mouse to Highlight the text</div>
+    <input type="color" class="form-control" [(ngModel)]="color_selected" (change)="get_color()">
+</div>

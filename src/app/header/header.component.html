@@ -1,0 +1,16 @@
+
+
+<div class="toolbar" role="banner">
+    <span class="home-btn" [routerLink]="['/initial']" title="Home">&#8962;</span>
+    <span style="margin-left: 4px;">Lokesh</span>
+    <div class="spacer"></div>
+    <div *ngIf="page_type!='initial'">
+        <button class="btn btn-outline-dark" *ngIf="page_type!='database'" [routerLink]="['/database']">Database</button>
+        <button class="btn btn-outline-dark" style="margin-left: 5px;" *ngIf="page_type!='ui-tools'" [routerLink]="['/ui-tools']">UI Tools</button>
+        <button class="btn btn-outline-dark" style="margin-left: 5px;" *ngIf="page_type!='task2'" [routerLink]="['/task2']">Task2</button>
+        <button class="btn btn-outline-dark" style="margin-left: 5px;" *ngIf="page_type!='task3'" [routerLink]="['/task3']">Task3</button>
+        <button class="btn btn-outline-dark" style="margin-left: 5px;" *ngIf="page_type!='task4'" [routerLink]="['/task4']">Task4</button>
+        <button class="btn btn-outline-dark" style="margin-left: 5px;" *ngIf="page_type!='task5'" [routerLink]="['/task5']">Task5</button>
+        <button class="btn btn-outline-dark" style="margin-left: 5px;" *ngIf="page_type!='task6'" [routerLink]="['/task6']">Task6</button>
+    </div>
+</div>
